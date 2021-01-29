@@ -1,6 +1,5 @@
 const path = require("path");
 const pluginsConfig = require("./webpack.plugins.js");
-const Timestamp = new Date().getTime()
 module.exports = {
   entry: {
     three: "./src/scene/index.js"
@@ -43,16 +42,15 @@ module.exports = {
     ]
   },
   devServer: {
-    host: "192.168.12.120",
-    port: "8000",
+    host: "localhost",
+    port: "3001",
     disableHostCheck: true // 取消host检查
   },
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx']
   },
   output: {
-    filename: `[name].bundle.${Timestamp}.js`,
-    chunkFilename:  `[name].bundle.${Timestamp}.js`,
+    filename: "[name].bundle.js",
     path: path.resolve(__dirname, "map")
   }
 };

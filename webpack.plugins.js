@@ -17,10 +17,10 @@ module.exports = [
   }]),
  
   new htmlWebpackPlugin({
-    filename: "index.html",
+    filename: "maze.html",
     title: "three",
     chunks: ['three'],
-    template: "./src/views/index.html"
+    template: "./src/views/maze.html"
   }),
   
 ]
