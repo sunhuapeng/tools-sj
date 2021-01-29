@@ -16,11 +16,11 @@ module.exports = [
     to: './static'
   }]),
  
-  new htmlWebpackPlugin({
-    filename: "maze.html",
-    title: "three",
-    chunks: ['three'],
-    template: "./src/views/maze.html"
-  }),
+  // new htmlWebpackPlugin({
+  //   filename: "maze.html",
+  //   title: "three",
+  //   chunks: ['three'],
+  //   template: "./src/views/maze.html"
+  // }),
   
 ]

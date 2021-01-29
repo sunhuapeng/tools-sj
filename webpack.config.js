@@ -2,7 +2,7 @@ const path = require("path");
 const pluginsConfig = require("./webpack.plugins.js");
 module.exports = {
   entry: {
-    three: "./src/scene/index.js"
+    three: "./src/scene/index.ts"
   },
   mode: "development",
   plugins: pluginsConfig,
