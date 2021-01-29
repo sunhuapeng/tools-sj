@@ -2,7 +2,7 @@
   "name": "tools-sj",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "scene/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --config webpack.config.js",
@@ -16,7 +16,8 @@
     "@markusende/heatmap.js": "^2.0.6",
     "@tweenjs/tween.js": "^17.4.0",
     "async": "^2.6.2",
-    "three": "^0.107.0"
+    "three": "^0.107.0",
+    "tools-sj": "git+https://github.com/sunhuapeng/tools-sj.git"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
