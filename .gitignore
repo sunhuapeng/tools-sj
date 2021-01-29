@@ -1,7 +1,6 @@
 .DS_Store
 node_modules/
 /map/
-/dist/
 /stub/
 
 # local env files
