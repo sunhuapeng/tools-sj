@@ -3,7 +3,7 @@ const pluginsConfig = require("./webpack.plugins.js");
 const Timestamp = new Date().getTime()
 module.exports = {
   entry: {
-    three: "./src/scene/index.ts"
+    three: "./src/scene/index.js"
   },
   mode: "development",
   plugins: pluginsConfig,
