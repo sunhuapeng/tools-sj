@@ -2,7 +2,7 @@
   "name": "tools-sj",
   "version": "1.0.0",
   "description": "",
-  "main": "map/three.bundle.js",
+  "main": "map/three.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --config webpack.config.js",
@@ -10,9 +10,12 @@
     "dev": "npx webpack-dev-server --mode development --content-base ./map"
   },
   "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunhuapeng/tools-sj"
+  },
   "license": "ISC",
   "dependencies": {
-    "tools-sj": "git+https://github.com/sunhuapeng/tools-sj.git"
   },
   "devDependencies": {
    
