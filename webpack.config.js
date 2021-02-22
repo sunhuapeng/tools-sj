@@ -50,7 +50,7 @@ module.exports = {
     extensions: ['.js', '.jsx', '.ts', '.tsx']
   },
   output: {
-    filename: "[name].bundle.js",
+    filename: "[name].mini.js",
     path: path.resolve(__dirname, "map")
   }
 };
