@@ -1,6 +1,5 @@
 const path = require("path");
 const pluginsConfig = require("./webpack.plugins.js");
-import Tools from './src/scene/index'
 module.exports = {
   entry: {
     tools: "./src/scene/index.ts"
@@ -53,7 +52,7 @@ module.exports = {
   output: {
     filename: "[name].mini.js",
     path: path.resolve(__dirname, "map"),
-    library: Tools,
+    library: 'tools',
     libraryTarget: 'commonjs'
   }
 };
