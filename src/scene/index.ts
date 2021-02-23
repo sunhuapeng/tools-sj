@@ -1,4 +1,1 @@
-const tools = require('./tools')
-declare module 'tools' {
-  export default tools
-}
+module.exports = require('./tools')
