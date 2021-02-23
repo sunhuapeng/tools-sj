@@ -52,7 +52,7 @@ module.exports = {
   output: {
     filename: "[name].mini.js",
     path: path.resolve(__dirname, "map"),
-    library: 'tools',
-    libraryTarget: 'commonjs'
+    // library: 'tools',
+    // libraryTarget: 'commonjs'
   }
 };
