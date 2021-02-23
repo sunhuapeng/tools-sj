@@ -5,4 +5,6 @@ class Tools {
 		return type ? str.replace(/\s+/g, '') : str.replace(/^\s+|\s+$/g, '');
 	}
 }
-export default Tools
+export {
+  Tools
+}
