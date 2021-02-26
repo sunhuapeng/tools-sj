@@ -48,13 +48,9 @@ module.exports = {
   },
   resolve: {
     extensions: [".js", ".jsx", ".ts", ".tsx"],
-    modules: [ 
-      path.resolve(__dirname, "node_modules"), 
-      "node_modules"
-    ],
   },
   output: {
-    filename: "[name].js",
+    filename: "[name].min.js",
     path: path.resolve(__dirname, "map"),
     // library: 'tools-sj',
     libraryTarget: "commonjs",
