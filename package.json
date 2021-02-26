@@ -2,7 +2,7 @@
   "name": "tools-sj",
   "version": "1.0.1",
   "description": "",
-  "main": "./map/tools.mini.js",
+  "main": "tools.mini.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --config webpack.config.js",
